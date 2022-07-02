@@ -6,6 +6,7 @@ body {
   line-height: 150%;
 }
 
+/* #region about */
 .about {
   display: flex;
   background-color: #E25544;
@@ -35,4 +36,20 @@ body {
   height: 114px;
   border-radius: 50%;
   margin-left: 50px;
+}
+/* #endregion */
+
+.main {
+  padding: 0px 40px;
+}
+
+.contacts {
+  display: flex;
+  padding: 24px;
+  justify-content: space-between;
+}
+
+.contacts__link {
+  text-decoration: none;
+  color: #485268;
 }
