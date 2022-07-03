@@ -5,6 +5,7 @@ body {
   font-size: 10px;
   line-height: 150%;
   color: #485268;
+  background-color: #E5E5E5;;
 }
 
 .info a:link {
@@ -17,6 +18,11 @@ body {
 
 strong {
   font-weight: 500;
+}
+
+.page {
+  width: 595px;
+  margin: 0 auto;
 }
 
 /* #region about */
@@ -54,6 +60,7 @@ strong {
 
 .main {
   padding: 0px 40px 8px;
+  background-color: white;
 }
 /* #region contacts */
 
@@ -168,7 +175,7 @@ strong {
 }
 /* #endregion */
 
-/* #region skills */
+/* #region tools */
 .tools {
   display: flex;
 }
@@ -190,4 +197,4 @@ strong {
 .tools__items:first-child {
   margin-top: 0px;
 }
-/* #endregion
+/* #endregion */
